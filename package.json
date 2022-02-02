@@ -1,0 +1,22 @@
+{
+  "name": "my-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hung220901/my-store.git"
+  },
+  "keywords": [
+    "mystore"
+  ],
+  "author": "hung220901",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hung220901/my-store/issues"
+  },
+  "homepage": "https://github.com/hung220901/my-store#readme"
+}
