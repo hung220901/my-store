@@ -2,8 +2,9 @@
   "name": "my-store",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Model/main.js",
   "scripts": {
+    "start": "nodemon --inspect Model/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/hung220901/my-store/issues"
   },
-  "homepage": "https://github.com/hung220901/my-store#readme"
+  "homepage": "https://github.com/hung220901/my-store#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
 }
