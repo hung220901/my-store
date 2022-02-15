@@ -2,9 +2,9 @@
   "name": "my-store",
   "version": "1.0.0",
   "description": "",
-  "main": "Model/main.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "nodemon --inspect Model/main.js",
+    "start": "nodemon --inspect src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
